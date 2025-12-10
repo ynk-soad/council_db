@@ -158,7 +158,7 @@ yaml
 
 # 👤 Author
 
-Hikaru YUNOKI (ynk-soad)  
+柚木 輝 (ynk-soad)  
 Graduate School of Informatics  
 Kansai University  
 
