@@ -46,7 +46,7 @@
 ---
 
 #  Folder Structure
-
+```
 council_db/
 ├─ 01_scraper/ # 議事録スクレイピング
 │ ├─ osaka/ # 大阪市専用 scraper / HTML パーサー
@@ -94,7 +94,7 @@ council_db/
 
 yaml
 コードをコピーする
-
+```
 ---
 
 #  How to Setup
@@ -147,13 +147,13 @@ yaml
 ---
 
 #  Use Cases
-
+```
 - 地方議会の議事録データベース構築  
 - 議員・職員の発言履歴の可視化  
 - 政策議論の構造分析  
 - RAG による議会向け AI チャットボット  
 - 行政データ分析研究の基盤整備  
-
+```
 ---
 
 #  Author
