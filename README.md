@@ -121,7 +121,8 @@ yaml
 
 
 
-# Pipeline Overview
+````markdown
+# 🔄 Pipeline Overview
 
 ```md
 [01_scraper]
@@ -139,7 +140,7 @@ yaml
 [発言テーブル]
         ↓
 [QA生成（RAG 用）]
-```
+````
 
 
 
