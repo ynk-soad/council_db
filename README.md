@@ -1,9 +1,9 @@
-# Council DB – Japanese Local Assembly Minutes Pipeline
+#  Council DB – Japanese Local Assembly Minutes Pipeline
 地方議会の議事録（会議録）を自動的に収集・整形・構造化し、  
-定例会・会議テーブル・議員マスタ・発言テーブル・Q&A 生成までを一気通貫で行う ETL + NLP パイプラインです。
+**定例会・会議テーブル・議員マスタ・発言テーブル・Q&A 生成までを一気通貫で行う ETL + NLP パイプライン**です。
 
 研究目的としては、全国の地方議会の議事録をデータベース化し、  
-将来的に RAG（Retrieval-Augmented Generation）による議会情報検索を実現するプロジェクトです。
+将来的に **RAG（Retrieval-Augmented Generation）による議会情報検索**を実現するプロジェクトです。
 
 ---
 
@@ -123,7 +123,7 @@ yaml
 
 ---
 
-# 🔄 Pipeline Overview
+#  Pipeline Overview
 
 [01_scraper]
 ↓
@@ -158,12 +158,12 @@ yaml
 
 #  Author
 
-Hikaru YUNOKI (ynk-soad)  
+**Haru (ynk-soad)**  
 Graduate School of Informatics  
 Kansai University  
 
 研究テーマ：  
-「地方議会データベース構築とRAG検索システムの開発」
+「地方議会データのETLパイプライン構築とRAG検索システムの開発」
 
 ---
 
