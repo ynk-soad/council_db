@@ -45,7 +45,7 @@
 
 ---
 
-#  Folder Structure
+## Folder Structure
 
 council_db/
 ├─ 01_scraper/ # 議事録スクレイピング
@@ -123,7 +123,7 @@ yaml
 
 ---
 
-# 🔄 Pipeline Overview
+## Pipeline Overview
 
 [01_scraper]
 ↓
