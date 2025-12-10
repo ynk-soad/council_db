@@ -43,7 +43,6 @@
 - GPT モデルを使った要約と整形
 - RAG 検索システムへの入力用データを生成
 
----
 
 #  Folder Structure
 ```
@@ -95,7 +94,7 @@ council_db/
 yaml
 コードをコピーする
 ```
----
+
 
 #  How to Setup
 
@@ -121,10 +120,10 @@ OPENAI_API_KEY=xxxx
 yaml
 コードをコピーする
 
----
+
 
 #  Pipeline Overview
-
+```
 [01_scraper]
 ↓
 [PDF / HTML / TXT]
@@ -143,17 +142,17 @@ yaml
 
 yaml
 コードをコピーする
+```
 
----
 
 #  Use Cases
-```
+
 - 地方議会の議事録データベース構築  
 - 議員・職員の発言履歴の可視化  
 - 政策議論の構造分析  
 - RAG による議会向け AI チャットボット  
 - 行政データ分析研究の基盤整備  
-```
+
 ---
 
 #  Author
