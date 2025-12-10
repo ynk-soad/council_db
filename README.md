@@ -121,6 +121,7 @@ yaml
 
 
 
+````markdown
 #  Pipeline Overview
 
 ```md
@@ -139,12 +140,6 @@ yaml
 [発言テーブル]
         ↓
 [QA生成（RAG 用）]
-```
-
-
-yaml
-コードをコピーする
-
 
 
 #  Use Cases
