@@ -44,56 +44,55 @@
 - RAG 検索システムへの入力用データを生成
 
 
-#  Folder Structure
-```
+## 📁 Folder Structure
+
+```md
 council_db/
 ├─ 01_scraper/ # 議事録スクレイピング
-│ ├─ osaka/ # 大阪市専用 scraper / HTML パーサー
-│ ├─ discuss3.py
-│ ├─ pdf_dl.py
-│ ├─ pdf_txt.py
-│ ├─ higashikagawa.py
-│ ├─ tosu.py
-│ └─ rename_minutes_files.py
+│  ├─ osaka/ # 大阪市専用 scraper / HTML パーサー
+│  ├─ discuss3.py
+│  ├─ pdf_dl.py
+│  ├─ pdf_txt.py
+│  ├─ higashikagawa.py
+│  ├─ tosu.py
+│  └─ rename_minutes_files.py
 │
 ├─ 02_meeting_tables/ # 定例会・会議テーブル生成
-│ ├─ teirei_sakusei_txt.py
-│ ├─ teirei_sakusei_html.py
-│ ├─ kaigi_sakusei.py
-│ └─ teirei_kaigi_sakusei.py
+│  ├─ teirei_sakusei_txt.py
+│  ├─ teirei_sakusei_html.py
+│  ├─ kaigi_sakusei.py
+│  └─ teirei_kaigi_sakusei.py
 │
 ├─ 03_giin_tables/ # 議員テーブル生成
-│ ├─ giinlist_sakusei.py
-│ ├─ giin_year.py
-│ ├─ giin_sakusei.py
-│ ├─ gicho.py
-│ ├─ 副議長探索.py
-│ └─ 監査委員検索.py
+│  ├─ giinlist_sakusei.py
+│  ├─ giin_year.py
+│  ├─ giin_sakusei.py
+│  ├─ gicho.py
+│  ├─ 副議長探索.py
+│  └─ 監査委員検索.py
 │
 ├─ 04_speech_tables/ # 発言抽出・QA生成
-│ ├─ preprocess/
-│ │ ├─ convert_to_utf8.py
-│ │ ├─ format.py
-│ │ └─ format_minutes.py
-│ ├─ extraction/
-│ │ ├─ 発言.py
-│ │ ├─ html_hatsugen.py
-│ │ └─ hatsugen_reigai.py
-│ ├─ qa_generation/
-│ │ ├─ hatsugen_paired.py
-│ │ └─ hatsugen_qa.py
+│  ├─ preprocess/
+│  │  ├─ convert_to_utf8.py
+│  │  ├─ format.py
+│  │  └─ format_minutes.py
+│  ├─ extraction/
+│  │  ├─ 発言.py
+│  │  ├─ html_hatsugen.py
+│  │  └─ hatsugen_reigai.py
+│  ├─ qa_generation/
+│  │  ├─ hatsugen_paired.py
+│  │  └─ hatsugen_qa.py
 │
 ├─ utils/
-│ └─ jiscode.json
+│  └─ jiscode.json
 │
 ├─ secrets/ (ignored)
-│ └─ OPENAI_API_KEY.env
+│  └─ OPENAI_API_KEY.env
 │
 └─ .gitignore
-
-yaml
-コードをコピーする
 ```
+
 
 
 #  How to Setup
