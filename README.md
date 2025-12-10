@@ -43,8 +43,6 @@
 - GPT モデルを使った要約と整形
 - RAG 検索システムへの入力用データを生成
 
----
-
 ## Folder Structure
 
 council_db/
@@ -92,10 +90,8 @@ council_db/
 │
 └─ .gitignore
 
-yaml
 コードをコピーする
 
----
 
 #  How to Setup
 
@@ -126,25 +122,21 @@ yaml
 ## Pipeline Overview
 
 [01_scraper]
-↓
-[PDF / HTML / TXT]
-↓ （convert_to_utf8 / format）
-[Preprocessed Text]
-↓
+        ↓
+   [PDF / HTML / TXT]
+        ↓  （convert_to_utf8 / format）
+   [Preprocessed Text]
+        ↓
 [02_meeting_tables / 03_giin_tables]
-↓
+        ↓
 [会議テーブル / 議員テーブル]
-↓
-[04_speech_tables]
-↓
-[発言テーブル]
-↓
-[QA生成（RAG 用）]
+        ↓
+     [04_speech_tables]
+        ↓
+     [発言テーブル]
+        ↓
+   [QA生成（RAG 用）]
 
-yaml
-コードをコピーする
-
----
 
 # 📚 Use Cases
 
